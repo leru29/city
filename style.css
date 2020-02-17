@@ -31,12 +31,14 @@ header {
     margin-right: 95px;
     margin-top: 35px;
     font-size: 25px;
+    letter-spacing: 0.5px;
 }
 .nav a {
     text-decoration: none;
     color: bisque;
     font-family: monospace;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .nav a:hover {
     background: #2b2126b3;
@@ -46,25 +48,30 @@ header {
 .content {
     width: 800px;
     height: 250px;
-    padding: 255px;
-    margin-left: 300px;
+    padding: 260px;
+    margin-left: 270px;
 }
 .content h1 {
     font-family: monospace;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 55px;
+    font-size: 75px;
     letter-spacing: 2px;
     color: #2b2126e0;
     
 }
 .content a {
     text-decoration: none;
+    font-family: monospace;
     color: bisque;
+    text-transform: uppercase;
     font-size: 25px;
-    margin-left: 155px; 
+    font-weight: bold;
+    margin-left: 195px; 
     border: 2px solid bisque;
+    background: #2b2126e0;
     padding: 10px;
 }
 .content a:hover {
-    background: #2b2126e0;
+    background: transparent;
 }
